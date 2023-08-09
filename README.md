@@ -1,8 +1,11 @@
-# aws-services
-Single list and short descriptions of AWS services
+# Single list and short descriptions of AWS services
 
-Service areas:
-* Compute
+While preparing for AWS Cloud Practitioner certification I found constant references to AWS services that have not being discussed before, so I thouhght that having an extensive list of AWS services would be useful.
+
+The list is far from complete, pull requests and comments very much welcome. Please keep the list descriptions concise and relevant for general knowledge.
+
+# Service areas:
+## Compute
    * Amazon EC2 (Elastic Compute Cloud)
       * Virtual Servers in the cloud
          * Auto Scaling (instances)
@@ -35,7 +38,7 @@ Service areas:
       * Deliver ultra-low-latency applications for 5G devices
    * VMware Cloud on AWS
       * Fully supported, ready-to-run service from the creators of the software, VMware
-* Containers
+## Containers
    * Amazon ECR (Elastic Container Registry)
       * Fully managed container registry
    * Amazon ECS (Elastic Container Service)
@@ -51,7 +54,7 @@ Service areas:
       * Serverless compute for containers (ECS and EKS)
    * Red Hat OpenShift Service on AWS
       * Managed Red Hat container platform on  AWS
-* Storage
+## Storage
    * Amazon EBS (Elastic Black Storage)
       * Block devices ) file systems, databases, apps, etc.
          * Single Availability Zone
@@ -80,7 +83,7 @@ Service areas:
    * AWS DRS (Elastic Disaster Recovery)
       * Scalable, cost-effective, fast, reliable application recovery of on-premises and cloud-based applications
          * Point-in-time recovery
-* Databases
+## Databases
    * Amazon Aurora
       * Fully managed MySQL and PostgreSQL compatible relational database
          * Auto Scaling (replicas)
@@ -104,7 +107,7 @@ Service areas:
       * Analyse structured and semi-structured data across warehouses, operational DBs and data lakes using SQL
    * Amazon Timestream
       *  Fast, scalable, and serverless time-series database service
-* Networking and Content Delivery
+## Networking and Content Delivery
    * Amazon API Gateway
       * Fully managed service for developers to create, publish, maintain, monitor, and secure APIs at any scale
          * RESTful APIs
@@ -154,7 +157,7 @@ Service areas:
       * Application LB targets EC2 (autoscaling too), Lambda, Fargate, EKS, ECS, IP addresses
       * Network LB targets the same plus application LB
       * 750 hours free per month on free tier
-* Security, Identity and Compliance
+## Security, Identity and Compliance
    * Amazon Cognito
       * Implement secure frictionless scalable customer identity and access management for web and mobile apps with a hosted UI with your branding
       * Use social or enterprise identity providers
@@ -205,7 +208,7 @@ Service areas:
       * Managed DDoS protection
    * AWS WAF
       * Protects against common exploits such as SQL Injection and XSS (cross-site scripting)
-* Analytics
+## Analytics
    * Amazon Athena
       * Analyze petabyte-scale data where it lives with ease and flexibility
    * Amazon CloudSearch
@@ -243,7 +246,7 @@ Service areas:
    * AWS Lake Formation
       * Build a secure data lake in days
       * Making data available for wide-ranging analytics
-* Cost Management
+## Cost Management
    * AWS Cost Explorer
       * Tool that enables you to view and analyze your costs and usage
       * AWS Cost Explorer API
@@ -276,7 +279,7 @@ Service areas:
       * 12 months free
       * Always free
       * Available for more than 100 products
-* Management and Governance
+## Management and Governance
    * Amazon CloudWatch
       * Observe and monitor resources and applications on AWS, on premises, and on other clouds
    * Amazon Managed Grafana
@@ -345,7 +348,7 @@ Service areas:
       *  AWS Business Support and AWS Enterprise Support customers can access all checks, including cost optimization, security, fault tolerance, performance, and service quotas
    * AWS Well-Architected Tool
       * Help you review the state of your applications and workloads against architectural best practices, identify opportunities for improvement, and track progress over time.
-* Front-End Web & Mobile
+## Front-End Web & Mobile
    * Amazon API Gateway
       * Build, deploy and manage APIs
    * Amazon Location Service
@@ -360,7 +363,7 @@ Service areas:
       * Fully-managed, scalable GraphQL APIs
    * AWS Device Farm
       * Test Android, iOS and web apps on real devices
-* Developer Tools
+## Developer Tools
    * Amazon CodeCatalyst (Preview)
    * Amazon CodeGuru
    * Amazon Corretto
@@ -383,7 +386,7 @@ Service areas:
    * AWS X-Ray
       * App debug and analysis
    * Amazon CodeWhisperer
-* Application Integration
+## Application Integration
    * Amazon AppFlow
    * Amazon EventBridge
    * Amazon (MWAA) Managed Workflows for Apache Airflow
@@ -391,8 +394,8 @@ Service areas:
    * Amazon (SNS) Simple Notification Service
    * Amazon SQS (Simple Queue Service)
    * AWS Step Functions
-* Customer Engagement
-* Internet of Things
+## Customer Engagement
+## Internet of Things
    * AWS IoT Core
    * AWS IoT FleetWise
    * AWS IoT SiteWise
@@ -408,7 +411,7 @@ Service areas:
    * AWS IoT RoboRunner
    * AWS Partner Device Catalog
    * FreeRTOS
-* Machine Learning
+## Machine Learning
    * Amazon Augmented AI
    * Amazon Bedrock
    * Amazon CodeGuru
@@ -444,15 +447,15 @@ Service areas:
    * PyTorch on AWS
    * TensorFlow on AWS
    * Amazon CodeWhisperer 
-* Robotics
+## Robotics
    * AWS RoboMaker
-* AR and VR
-* Satellite
+## AR and VR
+## Satellite
    * AWS Ground Station
-* Blockchain
+## Blockchain
    * Amazon Managed Blockchain
    * Amazon QLDB (Quantum Ledger Database)
-* Media Services
+## Media Services
    * Amazon Elastic Transcoder
    * Amazon Interactive Video Service
    * Amazon Kinesis Video Streams
@@ -463,7 +466,7 @@ Service areas:
    * AWS Elemental MediaPackage
    * AWS Elemental MediaStore
    * AWS Elemental MediaTailor
-* Business Applications
+## Business Applications
    * Alexa for Business
    * Amazon Chime
       * Meeting, video calls and chats
@@ -475,13 +478,13 @@ Service areas:
    * AWS Supply Chain (Previe)
       * ML-powered supply chain application
    * AWS Wickr
-* End User Computing
+## End User Computing
    * Amazon AppStream 2.0
       * Stream desktop applications to a browser
    * Amazon Workspaces Family
       * Virtual desktop services
-* Migration and Transfer
-* Game Tech
-* Mobile
-* Quantum Technologies
+## Migration and Transfer
+## Game Tech
+## Mobile
+## Quantum Technologies
    * Amazon Braket
