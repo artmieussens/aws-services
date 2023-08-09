@@ -1,4 +1,4 @@
-# Single list and short descriptions of AWS services
+# Extensive list and short descriptions of AWS services
 
 While preparing for AWS Cloud Practitioner certification I found constant references to AWS services that have not being discussed before, so I thouhght that having an extensive list of AWS services would be useful.
 
