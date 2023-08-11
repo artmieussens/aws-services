@@ -55,7 +55,7 @@ The list is far from complete, pull requests and comments very much welcome. Ple
    * Red Hat OpenShift Service on AWS
       * Managed Red Hat container platform on  AWS
 ## Storage
-   * Amazon EBS (Elastic Black Storage)
+   * Amazon EBS (Elastic Block Storage)
       * Block devices ) file systems, databases, apps, etc.
          * Single Availability Zone
    * Amazon EFS (Elastic File System)
